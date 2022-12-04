@@ -16,7 +16,7 @@ Clone the Discord server such as icon, emojis, roles, categories, channels, perm
 ## Usages:
 
 ```javascript
-npm install && npm run start
+npm install && npm run build && npm run start
 ```
 
 ## Showcase:
