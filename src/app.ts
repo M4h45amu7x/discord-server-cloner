@@ -42,7 +42,7 @@ const runApp = async () => {
         {
             type: 'checkbox',
             name: 'features',
-            message: 'Delay in ms:',
+            message: 'Features:',
             choices: [
                 'Delete default channels',
                 'Clone guild icon',
