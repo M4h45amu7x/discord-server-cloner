@@ -20,7 +20,6 @@ npm install && npm run build && npm run start
 ```
 
 ## Showcase:
-
-<a href="https://www.youtube.com/watch?v=-" target="_blank">
-    <img src="https://img.youtube.com/vi/-/maxresdefault.jpg" style="width:100%"/>
-</a>
+<img src="https://i.imgur.com/L7GjdNt.png" style="width:100%"/>
+<img src="https://i.imgur.com/Crh7FRw.png" style="width:100%"/>
+<img src="https://i.imgur.com/Z94Yuuy.png" style="width:100%"/>
