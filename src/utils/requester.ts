@@ -58,11 +58,11 @@ export const createServer = async (
             data: {
                 name: clonedName.length <= 100 ? clonedName : serverData.name,
                 region: serverData.region,
-                icon: cloneIcon
-                    ? `data:image/png;base64,${await getByteArrayFromImageURL(
-                          `https://cdn.discordapp.com/icons/${serverData.id}/${serverData.icon}?size=4096&quality=lossless`,
-                      )}`
-                    : undefined,
+                icon:
+                    cloneIcon &&
+                    `data:image/png;base64,${await getByteArrayFromImageURL(
+                        `https://cdn.discordapp.com/icons/${serverData.id}/${serverData.icon}?size=4096&quality=lossless`,
+                    )}`,
                 verification_level: serverData.verification_level,
                 default_message_notifications: serverData.default_message_notifications,
                 explicit_content_filter: serverData.explicit_content_filter,
