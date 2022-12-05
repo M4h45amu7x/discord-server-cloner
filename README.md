@@ -23,3 +23,6 @@ npm install && npm run build && npm run start
 <img src="https://i.imgur.com/L7GjdNt.png" style="width:100%"/>
 <img src="https://i.imgur.com/Crh7FRw.png" style="width:100%"/>
 <img src="https://i.imgur.com/Z94Yuuy.png" style="width:100%"/>
+
+## Warning:
+For educational purposes only. The developer (me) is not responsible for any misuse or damage caused by this software.
